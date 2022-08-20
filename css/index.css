@@ -76,14 +76,14 @@ html,body{
     width: 24px;
 }
 .tableList .tableHead li:nth-child(2),.tableBody tbody tr td:nth-child(2){
-    width: 230px;
+    width: 400px;
 }
-.tableList .tableHead li:nth-child(3),.tableBody tbody tr td:nth-child(3){
+/* .tableList .tableHead li:nth-child(3),.tableBody tbody tr td:nth-child(3){
     width: 110px;
-}
-.tableList .tableHead li:nth-child(4),.tableBody tbody tr td:nth-child(4){
+} */
+/* .tableList .tableHead li:nth-child(4),.tableBody tbody tr td:nth-child(4){
     width: 480px;
-}
+} */
 .tableBody{
     height: 500px;
     overflow-y: auto;
@@ -92,6 +92,7 @@ html,body{
     padding:5px;
     font-size: 13px;
     line-height: 18px;
+    text-align:left;
 }
 .tableList tbody td i{
     width: 12px;
